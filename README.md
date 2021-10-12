@@ -1,71 +1,37 @@
 # TOC-App
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Group Members and Roles
+1: Mutahhir Khan           -> Scrum Master
+2: Bilal Fayyaz            -> Product Owner
+3: Syed Shair Ali Rashid   -> Developer
+4: Syed Siraj Us Salekeen  -> Developer
+5: Muhammad Daniyal        -> UI/UX Designer
+6: Asad Ahmed Sheikh       -> UI/UX Designer
 
-## Available Scripts
+[Github Link](https://github.com/mutahhirkhan/TOC-App)
 
-In the project directory, you can run:
 
-### `yarn start`
+## Product Vision
+Surviving in the new normal, the world has revolutionized much a lot. As a young generation it's our responsibility to prepare ourselves for the next decade in order to rule over the technology. due to this, the idea of digital marketplace took us in it's field. This application give the ease of access to end user to make some purchases and pay at your ease either local or internal. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Categorised section for men, women and general.
+- Updated market, every week a new launch will introduce.
+- International transactions acceptance.
+- Best UX experience.
+- Traffic gathering.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Later on this product will gradually turn into multi vendors digital market.
 
-### `yarn test`
+### competitors
+We will be a solid competatorfor the big fishes like [Naheed]https://www.naheed.pk/, [Airlift Express](https://www.airliftexpress.com/). Both of these are single Vendor digital market. Competating with the best enchances your product a 100 x better than investing your own mind in how to enhance.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### Stakeholders
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+For this particular application, our stakeholders will be our customers. the higher the positive response from the customers, the better the service. we will do a superb marketing to spread our product among the stakeholders
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Customers
+in the Initial/development phases, We will be considering [Malik Owias Javaid Team](https://www.linkedin.com/in/owais-malik-63078a209/) as our customers. His team members are highly skilful and experienced in these types of applications to use.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
