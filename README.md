@@ -13,7 +13,7 @@
 
 
 ## Product Vision
-Surviving in the new normal, the world has revolutionized much a lot. As a young generation it's our responsibility to prepare ourselves for the next decade in order to rule over the technology. due to this, the idea of digital marketplace took us in it's field. This application give the ease of access to end user to make some purchases and pay at your ease either local or internal. 
+Surviving in the new normal, the world has revolutionized much a lot. As a young generation it's our responsibility to prepare ourselves for the next decade in order to rule over the technology. due to this, the idea of digital marketplace took us in it's field. This application give the ease of access to end user to make some purchases and pay at your ease either local or international. 
 
 - Categorised section for men, women and general.
 - Updated market, every week a new launch will introduce.
