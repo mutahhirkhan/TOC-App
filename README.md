@@ -24,7 +24,7 @@ Surviving in the new normal, the world has revolutionized much a lot. As a young
 Later on this product will gradually turn into multi vendors digital market.
 
 ### competitors
-We will be a solid competatorfor the big fishes like [Naheed](https://www.naheed.pk/), [Airlift Express](https://www.airliftexpress.com/). Both of these are single Vendor digital market. Competating with the best enchances your product a 100 x better than investing your own mind in how to enhance.
+We will be a solid competatorfor the big fishes like [Naheed](https://www.naheed.pk/), [Airlift Express](https://www.airliftexpress.com/). Both of these are single Vendor digital market. Competing with the best will enchance our product a 100 x better than investing your own mind in how to enhance.
 
 
 ### Stakeholders
