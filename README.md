@@ -32,6 +32,6 @@ We will be a solid competatorfor the big fishes like [Naheed](https://www.naheed
 For this particular application, our stakeholders will be our customers. the higher the positive response from the customers, the better the service. we will do a superb marketing to spread our product among the stakeholders
 
 ### Customers
-in the Initial/development phases, We will be considering [Malik Owias Javaid Team](https://www.linkedin.com/in/owais-malik-63078a209/) as our customers. His team members are highly skilful and experienced in these types of applications to use.
+in the Initial/development phases, We will be considering [Malik Owais Javaid Team](https://www.linkedin.com/in/owais-malik-63078a209/) as our customers. His team members are highly skilful and experienced in these types of applications to use.
 
 
