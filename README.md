@@ -2,8 +2,8 @@
 
 
 ### Group Members and Roles
-1: Mutahhir Khan           -> Scrum Master
-2: Bilal Fayyaz            -> Product Owner
+1: Mutahhir Khan           -> Product Owner
+2: Bilal Fayyaz            -> Scrum Master
 3: Syed Shair Ali Rashid   -> Developer
 4: Syed Siraj Us Salekeen  -> Developer
 5: Muhammad Daniyal        -> UI/UX Designer
