@@ -1,0 +1,27 @@
+.category-products{
+    font-size: 62.5%;
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: minmax(calc(100vh - var(--navbar-height)), min-content);
+    /* background: turquoise; */
+    justify-content: center;
+    padding-top: 150px;
+}
+
+
+.category-product-list{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    /* background: lightsalmon; */
+    align-content: start;
+    justify-items: center;
+    position: relative;
+    row-gap: 10em;
+}
+
+.additional-category-name{
+    transform: translate(-50%, -70%);
+
+}

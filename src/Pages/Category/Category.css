@@ -1,0 +1,9 @@
+.category{
+    font-size: 62.5%;
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: minmax(calc(100vh - var(--navbar-height)), min-content);
+    /* background: turquoise; */
+    justify-content: center;
+    padding-top: 150px;
+}   

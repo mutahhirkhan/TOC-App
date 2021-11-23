@@ -1,0 +1,21 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+  funfirection isLogin () {
+		return request.auth != null
+	}
+    match /users/ {docId} {
+      allow create, read, update, delete: if isLogin() && request.auth.uid == docId;
+    }
+    match /products/ {docID} {
+    	allow create, update, delete: if isLogin() && request.auth.uid == "RWKquC7ThLUeyb50BG4ywCOwWra2"
+      allow read: if true;
+    }
+    match /orders/ {docId} {
+    // ye request ka response me jo data jarha he wo he
+    allow create, read:  if isLogin() && request.auth.uid == request.resource.data.orderedBy; 
+    allow update: if isLogin() && request.auth.uid == resource.data.orderedBy;
+    allow delete: if false;
+    }
+  }
+}

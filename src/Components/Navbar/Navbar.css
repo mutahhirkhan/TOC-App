@@ -1,0 +1,15 @@
+.navbar {
+    width: 100vw;
+    height: var(--navbar-height);
+    background: lightgray;
+    display: grid;
+    grid-template-columns: 1fr repeat(4,min-content);
+    padding: 0px 80px;
+    align-content: center;
+    column-gap: 20px;
+    font-size: 62.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }

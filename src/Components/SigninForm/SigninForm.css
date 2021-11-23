@@ -1,0 +1,7 @@
+.signin-form{
+    width: 100%;
+    display: grid;
+    row-gap: 1em;
+    justify-items: center;
+    /* background: crimson; */
+}

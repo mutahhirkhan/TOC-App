@@ -1,0 +1,7 @@
+.signup-form{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    /* row-gap: 0.5em; */
+    /* background: lightcoral  ; */
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family-header: 'Open Sans', sans-serif;
+    --font-family-para: 'Roboto', sans-serif;   
+    --navbar-height: 70px;
+}
+
+.pagesContainer{
+    padding-top: var(--navbar-height);
+}
+
+html a{
+    text-decoration: none;
+    color: inherit;
+}
+html a:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+button{
+    font-size: inherit;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 100%;
+    width: 100%; */
+}

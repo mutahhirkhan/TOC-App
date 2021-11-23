@@ -1,0 +1,13 @@
+.cart-list-item{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    column-gap: 0.5em;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 5px 0;
+}
+
+.cart-list-item-img{
+    height: 5em;
+    width: 5em;
+}
+

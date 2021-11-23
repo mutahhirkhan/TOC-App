@@ -1,0 +1,17 @@
+.address-from-modal{
+    height: 30em;
+    width: 60em;
+    background: lightgoldenrodyellow;
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+}
+.address-from-modal > *{
+    margin-bottom: 1em;
+
+}
+.address-fields{
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+    gap: 2em;
+}

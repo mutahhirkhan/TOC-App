@@ -1,0 +1,6 @@
+functions/index.js -->
+	> deploy functions (generateCheckoutSession && stripeHook) to firebase cloud functions
+	> add endpoint on https://dashboard.stripe.com/test/webhooks with event.type === "checkout.session.completed"
+
+orderActions.js --> 
+	> remove hardcoded orderId and place variable orderId for authenticated order confirmation

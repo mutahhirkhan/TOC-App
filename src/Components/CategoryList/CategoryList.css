@@ -1,0 +1,7 @@
+.category-list{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* background: tomato; */
+    /* row-gap: 150px; */
+    justify-items: center;
+}

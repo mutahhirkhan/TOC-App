@@ -1,0 +1,25 @@
+nvm install 12.0.0
+nvm use 12.0.0
+npm install -g firebase-tools
+firebase --v
+you should be in your project root folder
+firebase login
+firebase init
+only select Functions: configure and deploy Functions
+use existing project
+select project 
+select javascript
+Eslint to catch problems: No
+install dependencies with npm: No 
+cd functions
+yarn 
+if yarn error found: npm install -g yarn
+firebase init emulators
+auth emulator: ENTER
+functions Eulator: ENTER
+firestore emulator: ENTER
+UI: yes
+leave empty to use ... : ENTER
+download Emulator: yes
+install java 
+firebase emulators:start

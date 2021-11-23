@@ -1,0 +1,16 @@
+.cart{
+    width: 30em;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: min-content 25em min-content;
+    background: #fffff3;
+    padding: 2em;
+    justify-items: center;
+    row-gap: 1em;
+    position: absolute;
+    transform: translate(-30%);
+    box-shadow: -5px -5px 10px rgba(0,0,0,0.3);
+    border-radius: 0 50px 0 50px;
+    font-size: 8px;
+
+}
