@@ -1,9 +1,10 @@
-import React, {useState} from "react";
+ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import Header from "./../Header/Header";
 import { connect } from 'react-redux';
 import { signout } from './../../Redux/authRedux/authActions';
+import cartIcon from "./../../Assests/icons/shopping-cart.svg"
 import Cart from "../Cart/Cart";
 
 export const MenuItem = ({ children, to="#", ...restProps }) => (
@@ -13,7 +14,7 @@ export const MenuItem = ({ children, to="#", ...restProps }) => (
         <Header
           style={{ cursor: "pointer", display: "inline" }}
           fontSize={24}
-          fontWeight="bold"
+          fontWeight="light"
         >
           {children}
         </Header>
@@ -27,21 +28,25 @@ const Navbar = ({auth, signout}) => {
   // console.log(auth)
   return (
     <div className="navbar">
-      <MenuItem to="/">HOME</MenuItem>
+      <MenuItem to="/">
+      <img src={require("./../../Assests/icons/e-black.png").default} className="e-black-logo"  />
+      </MenuItem>
       <MenuItem to="/categories">SHOP</MenuItem>
       <MenuItem to="/test">TEST</MenuItem>
       {/* <MenuItem >CART</MenuItem> */}
+      {auth ? <MenuItem onClick={signout} to="authentication">LOGOUT</MenuItem> :<MenuItem  to="authentication">LOGIN</MenuItem>}
       <div>
         <Header
           style={{ cursor: "pointer", display: "inline" }}
           fontSize={24}
           fontWeight="bold"
           onClick={(e) =>  setCartVisibility(!cartVisibility)}
-        >CART
+        >
+                <img src={cartIcon} className="cartIcon"  />
         </Header>
           {cartVisibility ? <Cart/> : null} 
       </div>
-      {auth ? <MenuItem onClick={signout} to="authentication">LOGOUT</MenuItem> :<MenuItem  to="authentication">LOGIN</MenuItem>}
+     
     </div>
   );
 };

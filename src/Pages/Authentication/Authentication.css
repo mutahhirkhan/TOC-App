@@ -1,17 +1,24 @@
 .authentication{
     height: calc(100vh - var(--navbar-height));
     width: 100vw;
-    background: lightyellow;
+    /* background: lightyellow; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 62.5%;
 
 }
 .auth-left{
-    background: lime;
+    /* background: lime; */
+    background-color: var(--light-red-color); /* For browsers that do not support gradients */
+    background-image: url("./../../Assests/image/image-removebg-preview.png"), linear-gradient(180deg, var(--light-red-color), var(--light-green-color));
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* filter: drop-shadow(8px 8px 10px gray); */
+
 }
+
 .auth-right{
-    background: magenta;
     align-items: start;
     
 }

@@ -1,6 +1,6 @@
 .category-list-item{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     position: relative;
     grid-column-gap: 70px ;
     margin-bottom: 17em;
