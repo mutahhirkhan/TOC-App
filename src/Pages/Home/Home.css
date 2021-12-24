@@ -8,6 +8,12 @@
 
 .homeLeft {
     background: cornflowerblue;
+    /* background-color: var(--light-red-color);
+    background-image: url("./../../Assests/image/image-removebg-preview.png"), linear-gradient(180deg, var(--light-red-color), var(--light-green-color));
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat; */
+  
 }
 
 .homeRight {

@@ -15,6 +15,7 @@ const CategoryList = ({fetchProducts, categories}) => {
         <div className="category-list">
             {/* <h1>category List</h1> */}
             {/* //spread the object here as soul pair */}
+            {console.log(categories)}
             {categories.map(category => <CategoryListItem key={category.category} {...category}/>)} 
         </div>
     )

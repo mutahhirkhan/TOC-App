@@ -4,11 +4,28 @@
     border: 0;
     box-sizing: border-box;
 }
+html{
+    /* font-size: 62.5%; */
+}
 
 :root {
     --font-family-header: 'Open Sans', sans-serif;
     --font-family-para: 'Roboto', sans-serif;   
     --navbar-height: 70px;
+    --light-green-color: #d5be63;
+    --light-red-color: #ff7666;
+    --dark-blue-color: #144faf;
+    --google-login-btn: #3a82ed;
+    --signin-btn: #000000;
+    --hovered-category-color: #e1a62b;
+    --light-lime-color: #bcd771;
+    --blue-color: #4492c5;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pagesContainer{

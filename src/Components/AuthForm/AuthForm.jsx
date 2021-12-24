@@ -17,6 +17,9 @@ const AuthForm = ({googleSignin}) => {
           Signin
            {switcherValue === "signin" ? <div className="underline"></div>: null} 
         </Button>
+        <div className="e-logo-wrapper flex">
+          <img src={require("./../../Assests/icons/e-black.png").default} className="e-black-logo"  />
+        </div>
         <Button
         onClick={() => setSwitcherValue('signup')}
           style={{ position: "relative", justifySelf: "end" }}
