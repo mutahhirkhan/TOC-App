@@ -8,7 +8,9 @@ const Home = () => {
                 <div className="homeLeft center">
                     <h1>Image 1</h1>
                 </div>
-                <div className="homeRight center">RIGHT</div>
+                <div className="homeRight center">
+                    <h1>Image 2</h1>
+                </div>
         </div>
     )
 }

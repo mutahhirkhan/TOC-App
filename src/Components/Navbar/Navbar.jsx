@@ -27,7 +27,7 @@ const Navbar = ({auth, signout}) => {
   // console.log(auth)
   return (
     <div className="navbar">
-      <MenuItem to="/">LOGO</MenuItem>
+      <MenuItem to="/">HOME</MenuItem>
       <MenuItem to="/categories">SHOP</MenuItem>
       <MenuItem to="/test">TEST</MenuItem>
       {/* <MenuItem >CART</MenuItem> */}
