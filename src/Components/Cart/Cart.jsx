@@ -15,6 +15,7 @@ const Cart = ({ generateOrder, cart, auth }) => {
         if (!auth) {
             return generateOrder();
         }
+        return alert("You need to login to place an order");
     };
 
     return (
@@ -26,7 +27,7 @@ const Cart = ({ generateOrder, cart, auth }) => {
             <CartList />
             {/* <button onClick={generateOrder}>CHECK OUT</button> */}
             <Button
-                onClick={generateOrder}
+                onClick={generateOrderFn}
                 disabled={cart.length > 0 ? false : true}
                 fontSize={18}
                 style={{ letterSpacing: "3px", width: "80%" }}>
