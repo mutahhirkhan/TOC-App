@@ -1,7 +1,7 @@
 .authentication{
     height: calc(100vh - var(--navbar-height));
     width: 100vw;
-    background: lightyellow;
+    background: rgb(248, 247, 231);
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 62.5%;
