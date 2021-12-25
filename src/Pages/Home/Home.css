@@ -7,11 +7,11 @@
 }
 
 .homeLeft {
-    background: black;
+    background: transparent;
 }
 .text{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
 }
 .text p{
     font-size: 0.9rem;
@@ -22,4 +22,5 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }

@@ -6,7 +6,9 @@ import "./CategoryListItem.css";
 const CategoryListItem = ({ category, products }) => {
     return (
         <div className="category-list-item">
+        
             <h1 className="category-name">
+                {console.log(category)}
                 <Link to={`category-products/${category}`}>{category}</Link>
             </h1>
             {products.map((product, index) => (
