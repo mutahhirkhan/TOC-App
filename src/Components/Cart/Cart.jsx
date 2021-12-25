@@ -12,7 +12,7 @@ import Button from "./../Button/Button";
 
 const Cart = ({ generateOrder, cart, auth }) => {
     const generateOrderFn = () => {
-        if (!auth) {
+        if (auth != null) {
             return generateOrder();
         }
         return alert("You need to login to place an order");
