@@ -10,6 +10,7 @@
     position: absolute;
     top: 0;
     left: 50%;
+    color: grey;
     transform: translate(-50%, -70%);
     font-size: 150px;
     letter-spacing: 30px;
