@@ -10,9 +10,14 @@
     position: absolute;
     top: 0;
     left: 50%;
-    color: grey;
+    color: rgb(212, 212, 212);
     transform: translate(-50%, -70%);
     font-size: 150px;
     letter-spacing: 30px;
     text-transform: uppercase;
+    transition: 0.3s;
+
+}
+.category-name-link:hover{
+    color: var(--hovered-category-color);
 }

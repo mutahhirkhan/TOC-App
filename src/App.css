@@ -20,7 +20,8 @@ html{
     --hovered-category-color: #e1a62b;
     --light-lime-color: #bcd771;
     --blue-color: #4492c5;
-    
+    --box-shadow-light: 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
+    --box-shadow-dark: -1px 2px 12px 0px rgba(0, 0, 0, 0.5);
 }
 .flex{
     display: flex;

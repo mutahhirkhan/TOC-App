@@ -9,7 +9,7 @@ const CategoryListItem = ({ category, products }) => {
         
             <h1 className="category-name">
                 {console.log(category)}
-                <Link to={`category-products/${category}`}>{category}</Link>
+                <Link className="category-name-link" to={`category-products/${category}`}>{category}</Link>
             </h1>
             {products.map((product, index) => (
                 <>{index < 3 && <ProductCard key={product.title} {...product} />}</>

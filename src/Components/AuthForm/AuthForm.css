@@ -6,10 +6,11 @@
     grid-template-rows: min-content 1fr min-content;
     row-gap: 2em;
     transform: translateX(-20px);
-    box-shadow:  0 0 10px 5px rgba(0,0,0,0.5);
+    /* box-shadow:  0 0 10px 5px rgba(0,0,0,0.5);
     -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.5);
     -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
-    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.5);
+    -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.5); */
+    box-shadow: var(--box-shadow-dark);
     border-radius: 10px;
     padding: 2em;
 }
@@ -31,8 +32,8 @@
     top: -3rem;
     left: 8rem;
     border-radius: 50%;
-    border: 0.3px solid black;
-    box-shadow:3px 3px 3px 3px rgba(0,0,0,0.3);
+    /* border: 0.3px solid black; */
+    box-shadow: var(--box-shadow-light);
 }
 .e-black-logo{
     height: 50px;
