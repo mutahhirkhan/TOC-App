@@ -29,7 +29,7 @@ const SignupForm = ({ signup }) => {
         style={{ width: "100%" }}
         className="full-name"
         label="Full Name"
-      ></TextField> 
+      ></TextField>
       <TextField
         value={email}
         onChange={(e) => setemail(e.target.value)}
@@ -45,7 +45,7 @@ const SignupForm = ({ signup }) => {
         label="Password"
       ></TextField>
 
-      <Button type="submit" style={{ marginTop: "2em", width: "70%" }}>Sign up</Button>
+      <Button type="submit" fontWeight="bold" fontSize={18} style={{ marginTop: "2em", width: "70%", background: '#000' }}>SIGN UP</Button>
 
       {/* <input onChange={(e) => setfullName(e.target.value)} value={fullName} type="text" placeholder="full name"></input>
                     <input onChange={(e) => setemail(e.target.value)} value={email} type="text" placeholder="email"></input>
