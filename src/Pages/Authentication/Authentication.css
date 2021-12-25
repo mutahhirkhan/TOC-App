@@ -1,7 +1,7 @@
 .authentication{
     height: calc(100vh - var(--navbar-height));
     width: 100vw;
-    background: lightyellow;
+    /* background: lightyellow; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 62.5%;
@@ -19,7 +19,6 @@
 }
 
 .auth-right{
-    /* background: magenta; */
     align-items: start;
     
 }

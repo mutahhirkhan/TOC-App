@@ -3,6 +3,7 @@ import CategoryList from "../../Components/CategoryList/CategoryList";
 // import { useEffect } from 'react';
 import { connect } from "react-redux";
 import { clearProducts } from "../../Redux/product/productActions";
+// import eicon from "./../../Assests/icons/"
 import "./Category.css";
 
 const Category = ({ clearProducts }) => {
@@ -19,6 +20,7 @@ const Category = ({ clearProducts }) => {
   return (
     <div className="category">
       {/* <h1>Category Page</h1> */}
+      {/* <img src="" alt="" /> */}
       <CategoryList />
     </div>
   );

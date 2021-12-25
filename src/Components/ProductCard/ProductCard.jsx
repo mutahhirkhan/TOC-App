@@ -7,6 +7,7 @@ import "./ProductCard.css"
 import Button from './../Button/Button';
 
 const ProductCard = ({ addToCart, removeFromCart, deleteFromCart, ...product }) => {
+    console.log(product)
     var { title, cost, id, CoverPhoto} = product
     return (
         <div >

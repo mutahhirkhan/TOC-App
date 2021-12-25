@@ -2,20 +2,25 @@
     display: grid;
     grid-template-rows: minmax(calc(100vh - var(--navbar-height)), min-content);
     grid-template-columns: repeat(2, 1fr);
-    background: chocolate;
+    /* background: chocolate; */
 
 }
 
 .homeLeft {
-    background: cornflowerblue;
-    /* background-color: var(--light-red-color);
-    background-image: url("./../../Assests/image/image-removebg-preview.png"), linear-gradient(180deg, var(--light-red-color), var(--light-green-color));
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat; */
-  
+    background: transparent;
 }
-
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.text p{
+    font-size: 0.9rem;
+}
 .homeRight {
     background: darkslategray;
+    background-image: url("./../../Assests/image/01.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
