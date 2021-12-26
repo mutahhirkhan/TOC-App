@@ -1,3 +1,4 @@
+import React from "react";
 import { useEffect, lazy, Suspense } from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";

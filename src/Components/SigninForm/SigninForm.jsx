@@ -36,7 +36,7 @@ const SigninForm = ({ signin }) => {
         className="password"
         label="Password"
       ></TextField>
-      <Button type="submit" style={{ marginTop: "2em", width: "70%" }}>Sign in</Button>
+      <Button type="submit" fontWeight="bold" fontSize={18} style={{ marginTop: "2em", width: "70%",background:'#000'}}>SIGN IN</Button>
       {/* <input onChange={(e) => setemail(e.target.value)} value={email} type="text" placeholder="email"></input>
                     <input onChange={(e) => setpassword(e.target.value)} value={password} type="text" placeholder="password"></input>
                     <button type="submit">submit</button> */}

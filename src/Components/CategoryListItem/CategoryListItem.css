@@ -1,6 +1,6 @@
 .category-list-item{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     position: relative;
     grid-column-gap: 70px ;
     margin-bottom: 17em;
@@ -10,8 +10,15 @@
     position: absolute;
     top: 0;
     left: 50%;
+    color: rgb(212, 212, 212);
     transform: translate(-50%, -70%);
     font-size: 150px;
     letter-spacing: 30px;
     text-transform: uppercase;
+    transition: 0.3s;
+
+}
+.category-name-link:hover{
+    color: var(--hovered-category-color);
+    text-shadow: 4px -1px 17px #b7b7b7;
 }

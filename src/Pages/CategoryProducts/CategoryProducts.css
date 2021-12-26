@@ -13,12 +13,13 @@
     height: 100%;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
     /* background: lightsalmon; */
     align-content: start;
     justify-items: center;
     position: relative;
     row-gap: 10em;
+    column-gap: 3em;
 }
 
 .additional-category-name{
