@@ -5,5 +5,12 @@
     row-gap: 1em;
     padding: 5px 0;
     align-content: start;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    /* filter: blur(0px) !important; */
+    color: white !important;
 
 }   
+.checkout-list > * {
+    color: white;
+}
