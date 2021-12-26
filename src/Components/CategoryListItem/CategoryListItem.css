@@ -20,4 +20,5 @@
 }
 .category-name-link:hover{
     color: var(--hovered-category-color);
+    text-shadow: 4px -1px 17px #b7b7b7;
 }
