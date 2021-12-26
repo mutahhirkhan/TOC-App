@@ -13,8 +13,6 @@ const Button = ({
     disabled = false,
     ...restProps
 }) => {
-    console.log("style");
-    console.log(style);
     return (
         <button
             {...restProps}
