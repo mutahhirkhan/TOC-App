@@ -21,7 +21,7 @@ const ProductCardV2 = ({ addToCart, removeFromCart, deleteFromCart, ...product }
 
     var { title, cost, id, CoverPhoto, quantity, description, category } = product;
 
-    const truncateText = (str, n = 35) => (str.length > n ? str.substr(0, n - 1) + "..." : str);
+    const truncateText = (str, n = 43) => (str.length > n ? str.substr(0, n - 1) + "..." : str);
 
     const availableItems = (quantity) =>
         quantity > 0 ? (
