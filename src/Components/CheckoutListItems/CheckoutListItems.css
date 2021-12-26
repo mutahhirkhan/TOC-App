@@ -1,8 +1,9 @@
 .checkout-list-item{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 2fr 1fr 2fr 2fr;
     text-align: center;
     border-bottom: 1px solid lightgray;
+    
     padding-bottom: 1em;
 }
 .checkout-item-product{
@@ -16,5 +17,13 @@
     margin-right: 2em;
 }
 .checkout-item-quantity{
+    height: 40px;
+    width: 140px;
+    justify-content: center;
     flex-direction: row;
+    box-shadow: -1px 2px 12px 0px rgba(0, 0, 0, 0.5)!important;
+    border-radius: 50px!important;
+}
+.checkout-item-quantity > * {
+    height: inherit;
 }
