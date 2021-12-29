@@ -22,7 +22,7 @@ const CheckoutListItems = ({
     <div className="checkout-list-item">
       <div className="checkout-item-product">
         <div className="checkout-item-product-image" style={{ background: `url(${CoverPhoto}) no-repeat center center / 100%` }}></div>
-        <Paragraph>{title}</Paragraph>
+        <Paragraph fontSize={16} color="#fff">{title}</Paragraph>
       </div>
       <div className="checkout-item-quantity center">
         <Button
@@ -57,9 +57,9 @@ const CheckoutListItems = ({
           -
         </Button>
       </div>
-      <div className="checkout-item-price center"><Paragraph fontSize={20} fontWeight="bold">$ {cost}</Paragraph></div>
+      <div className="checkout-item-price center"><Paragraph fontSize={20} fontWeight="bold" color="#fff">$ {cost}</Paragraph></div>
       {/* <CloseIcon onClick={() => deleteFromCart(id)} style={{ cursor: "pointer" }}/> */}
-      <div className="checkout-item-cancellation center"><Paragraph onClick={() => deleteFromCart(id)} style={{ cursor: "pointer" }} fontSize={20} fontWeight="bold">x</Paragraph></div>
+      <div className="checkout-item-cancellation center"><Paragraph onClick={() => deleteFromCart(id)} style={{ cursor: "pointer" }} fontSize={20} fontWeight="bold" color="#fff">x</Paragraph></div>
       {/* *************************
             <h1>{title} - {cost} - <button onClick={() => deleteFromCart(id)}> X </button></h1>
             <h2><button onClick={() => (addToCart(product))}> + </button> {cartQuantity} <button onClick={() => removeFromCart(id)}> - </button></h2> */}

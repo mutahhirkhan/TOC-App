@@ -1,26 +1,41 @@
-.home {
+
+.page2{
     display: grid;
-    grid-template-rows: minmax(calc(100vh - var(--navbar-height)), min-content);
-    grid-template-columns: repeat(2, 1fr);
-    /* background: chocolate; */
-
-}
-
-.homeLeft {
-    background: transparent;
-}
-.text{
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-}
-.text p{
-    font-size: 0.9rem;
-}
-.homeRight {
-    background: darkslategray;
-    background-image: url("./../../Assests/image/01.jpg");
-    background-size: cover;
-    background-position: center;
+    grid-template-columns: 10fr 80fr 10fr;
+    background: url("./../../Assests/image/men.png");
+    background-size: 100% 100%,cover;
     background-repeat: no-repeat;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    grid-template-areas: ". About .";
+}
+.About{
+    display: grid;
+    grid-template-columns: 50fr 50fr ;
+    grid-template-areas: "About-text About-img";
+}
+
+.About-text{
+    display: grid;
+    grid-template-rows:10fr 30fr 60fr;
+}
+
+.About-head>h3{
+    font-family:'Acme', sans-serif;
+    font-size: 2rem;
+    padding: 4.4px 30px;
+    font-weight: lighter;
+    color: #fff;
+
+}
+.About-head>h1{
+    font-family:'Acme', sans-serif;
+    font-size: 3.5rem;
+    padding: 10px 24px;
+    color: #fff;
+}
+
+.About-para>p{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 24px;
+    color: #fff;
 }

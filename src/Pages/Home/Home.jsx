@@ -10,18 +10,27 @@ const Home = () => {
         history.push("/categories")
     }
     return (
-        <div className="home">
-            <div className="homeLeft center">
-                <div className="text">
-                    <h1>Fashion Trends</h1>
-                    <p><br></br>Get our latest 2021 Collection</p>
-                    <Button type="submit" style={{ marginTop: "2em", width: "80%" }} onClick={click}>Shop Now</Button>
+        <div class="page2">
+            <div></div>
+            <div class="About">
+                <div class="About-text">
+                    <div class="About-gap"></div>
+                    <div class="About-head">
+                        <h3>Read Our Story </h3>
+                        <h1>We have been selling <br /> the important Brand since 1999</h1>
+                    </div>
+                    <div class="About-para">
+                        <p>Ecommerce content marketing sounds good in theory – but few sites do it well.
+                            Loads of ecommerce sites will put up a blog, write a company update once in a while and call it a day.
+                        </p>
+                        <div>
+                        <Button type="submit" background='#fff' color='#000' style={{marginLeft:'24px',marginTop:'25px'}} onClick={click}>Shop Now</Button>
+                        </div>
+                    </div>
                 </div>
-
+                <div class="About-img"></div>
             </div>
-            <div className="homeRight center">
-
-            </div>
+            <div></div>
         </div>
     )
 }
