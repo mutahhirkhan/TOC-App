@@ -15,13 +15,39 @@ html{
     --light-green-color: #d5be63;
     --light-red-color: #ff7666;
     --dark-blue-color: #144faf;
+    --light-gray-color:#d3d3d3;
     --google-login-btn: #3a82ed;
     --signin-btn: #000000;
     --hovered-category-color: #e1a62b;
     --light-lime-color: #bcd771;
     --blue-color: #4492c5;
-    
+    --box-shadow-light: 1px 1px 9px 0px rgba(0, 0, 0, 0.5);
+    --box-shadow-dark: -1px 2px 12px 0px rgba(0, 0, 0, 0.5);
 }
+
+::-webkit-scrollbar {
+    width: 6px !important;
+    cursor: pointer !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    border-radius: 10px !important;
+    background: var(--light-gray-color) !important;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--hovered-category-color) !important;
+    cursor: pointer !important; 
+    border-radius: 10px !important;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #cf910b !important; 
+    cursor: pointer !important;
+  }
 .flex{
     display: flex;
     justify-content: center;

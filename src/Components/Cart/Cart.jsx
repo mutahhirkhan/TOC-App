@@ -29,8 +29,11 @@ const Cart = ({ generateOrder, cart, auth }) => {
             <Button
                 onClick={generateOrderFn}
                 disabled={cart.length > 0 ? false : true}
-                fontSize={18}
-                style={{ letterSpacing: "3px", width: "80%" }}>
+                fontSize={14}
+                style={{
+                    letterSpacing: "3px", width: "80%", background: 'rgb(79, 79, 79)',
+                    cursor: 'pointer'
+                }}>
                 CHECKOUT
             </Button>
         </div>

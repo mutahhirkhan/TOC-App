@@ -1,10 +1,12 @@
 .navbar {
     width: 100vw;
     height: var(--navbar-height);
-    background: lightgray;
+    background: white;
+    box-shadow: var(--box-shadow-light);
+    
     display: grid;
     grid-template-columns: 1fr repeat(4,min-content);
-    padding: 0px 80px;
+    padding: 0px 140px 0px 70px;
     align-content: center;
     column-gap: 20px;
     font-size: 62.5%;
@@ -13,3 +15,12 @@
     left: 0;
     z-index: 99;
   }
+.e-black-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.cartIcon{
+  height: 30px;
+  width: 40px;
+}

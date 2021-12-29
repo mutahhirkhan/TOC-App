@@ -7,6 +7,7 @@ const Header = ({
   fontWeight = "bold",
   color = "black",
   style = {},
+  classname = "",
   ...restProps
 }) => {
   var fontWeightCal = (weightStr) => {
@@ -27,7 +28,7 @@ const Header = ({
 var fontWeightValue = fontWeightCal(fontWeight);
 var fontSizeValue = fontSize/10;
   return (
-    <div {...restProps} className="header" style={{ fontWeight: fontWeightValue, fontSize: `${fontSizeValue}em`, color, ...style }}>
+    <div {...restProps} className={`${classname} header`} style={{ fontWeight: fontWeightValue, fontSize: `${fontSizeValue}em`, color, ...style }}>
       {children}
     </div>
   );

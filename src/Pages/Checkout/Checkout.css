@@ -3,8 +3,14 @@
     display: grid;
     grid-template-columns: 80vw;
     grid-template-rows: calc(100vh - var(--navbar-height));
-    background: turquoise;
     justify-content: center;
+    background: url("./../../Assests/image/checkout-bg-2.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: drop-shadow(16px 16px 10px black); */
+    /* filter: drop-shadow(16px 16px 10px black); */
+    background-color: rgb(53, 53, 53);
+    background-blend-mode: overlay;
 }
 
 .checkout{
@@ -13,6 +19,7 @@
     grid-template-rows: min-content 1fr min-content;
     row-gap: 3em;
 }
+
 .checkout-bottom-content{
     display: grid;
     grid-template-columns: repeat(2,1fr);
