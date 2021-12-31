@@ -8,7 +8,7 @@ const Button = ({
     color = "white",
     fontWeight,
     fontSize,
-    classname,
+    classname="",
     style = {},
     disabled = false,
     ...restProps

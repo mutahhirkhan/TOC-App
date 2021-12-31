@@ -3,7 +3,8 @@
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: min-content 25em min-content;
-    background: #fffff3;
+    background: #fff;
+    box-shadow: inset 1px 1px 6px 0px rgba(0, 0, 0, 0.5);
     padding: 2em;
     justify-items: center;
     row-gap: 1em;
